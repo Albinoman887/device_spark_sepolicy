@@ -1,2 +1,0 @@
-allow hal_health_default persist_battery_file:dir search;
-
