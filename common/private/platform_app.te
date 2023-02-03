@@ -14,6 +14,7 @@ hal_client_domain(platform_app, hal_lineage_livedisplay)
 r_dir_file(platform_app, mnt_pass_through_file)
 
 # Allow PowerShare HAL service to be found
+binder_use(platform_app)
 hal_client_domain(platform_app, hal_lineage_powershare)
 
 # OTA
