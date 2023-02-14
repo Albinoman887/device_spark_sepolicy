@@ -1,2 +1,2 @@
-allow hal_health_default persist_battery_file:dir { search write };
+allow hal_health_default persist_battery_file:dir { search write add_name };
 
